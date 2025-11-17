@@ -1,0 +1,35 @@
+.chart {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-y: auto;
+    
+}
+
+.scatter-chart {
+    width: 90%;
+    height: auto;
+}
+
+.spinner-container {
+    justify-content: center;
+  
+    display: flex;
+    width: 100%;
+  }
+  
+  .spinner {
+    margin-top: 20px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4285F4;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }

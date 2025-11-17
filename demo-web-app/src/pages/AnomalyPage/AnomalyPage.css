@@ -1,0 +1,63 @@
+.anomaly-page-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #f9f9fc;
+}
+
+.anomaly-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.anomaly-content h2 {
+    color: #1E5073;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.anomaly-content p {
+    color: #666;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.anomaly-report-section {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* New section for our List/Graph dashboard */
+.anomaly-explorer-section {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 24px; /* space below the first card */
+    overflow-x: auto; /* safety for wide graph */
+}
+
+/* Small header above our widget */
+.anomaly-explorer-header {
+    margin-bottom: 16px;
+}
+
+.anomaly-explorer-title {
+    color: #1E5073;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 4px 0;
+}
+
+.anomaly-explorer-desc {
+    color: #666;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+}

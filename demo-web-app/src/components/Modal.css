@@ -1,0 +1,53 @@
+/* Modal container */
+.modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000; 
+}

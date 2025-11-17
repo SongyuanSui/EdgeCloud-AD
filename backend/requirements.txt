@@ -1,0 +1,16 @@
+# Backend API Dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Data Processing and Analysis
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Machine Learning and Anomaly Detection
+scikit-learn>=1.3.0
+pyod>=1.1.0
+tensorflow>=2.13.0
+
+# Standard library modules (no installation needed)
+# sys, os, typing, datetime, warnings - built into Python
